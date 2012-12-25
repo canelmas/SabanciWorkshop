@@ -5,12 +5,13 @@ Simple android app that covers Android fundamentals by leveraging Rotten Tomatoe
 
 Topics of this tutorial:
 
-*Basic Android Project Structure
-*Activity
-*Intent
-*Common layouts and views
-*List View and Adapter
-*Http Connection and AsyncTask
+-Basic Android Project Structure
+-Activity
+-Intent
+-Common layouts and views
+-List View and Adapter
+-Http Connection and AsyncTask
+
 
 
 For more,
