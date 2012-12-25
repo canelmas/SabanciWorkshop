@@ -1,7 +1,7 @@
 RottenAndroid
 =============
 
-Simple android tutorial app that covers Android fundamentals by leveraging Rotten Tomatoes API public API
+Simple android tutorial app that covers Android fundamentals by leveraging Rotten Tomatoes API
 
 Topics of this tutorial:
 
