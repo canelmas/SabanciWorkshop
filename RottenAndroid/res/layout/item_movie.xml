@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    <!--
+        Movie Thumbnail Image
+    -->
+    <ImageView
+            android:id="@+id/movie_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/icon"/>
+
+    <!--
+        Movie Title
+    -->
+    <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/movie_img"
+            android:textColor="@color/green_text"
+            android:text="test"
+            android:textSize="19sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    <!--
+        Synopsis
+    -->
+    <TextView
+            android:id="@+id/movie_synopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_toRightOf="@id/movie_img"
+            android:layout_below="@id/movie_title"
+            android:text="test"
+            android:textStyle="italic"
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    <!--
+        Movie Rating
+    -->
+    <TextView
+            android:id="@+id/movie_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_below="@id/movie_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="20"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_red_light"
+            android:paddingLeft="10dp"/>
+
+
+</RelativeLayout>
