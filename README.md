@@ -8,7 +8,7 @@ Topics of this tutorial:
 -Basic Android Project Structure<br/>
 -Activity<br/>
 -Intent<br/>
--Intent-Filter</br>
+-Intent-Filter<br/>
 -Common Layouts and Views<br/>
 -List View and Adapter<br/>
 -Network<br/>
