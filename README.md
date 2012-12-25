@@ -1,7 +1,7 @@
 RottenAndroid
 =============
 
-Simple android app that covers Android fundamentals by leveraging Rotten Tomatoes API public API
+Simple android tutorial app that covers Android fundamentals by leveraging Rotten Tomatoes API public API
 
 Topics of this tutorial:
 
@@ -13,7 +13,7 @@ Topics of this tutorial:
 -Http Connection and AsyncTask<br/>
 
 
-
 For more,
 
-http://developer.rottentomatoes.com/docs
+http://developer.rottentomatoes.com/docs<br/>
+http://developer.android.com/
