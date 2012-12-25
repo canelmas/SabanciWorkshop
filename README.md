@@ -8,9 +8,11 @@ Topics of this tutorial:
 -Basic Android Project Structure<br/>
 -Activity<br/>
 -Intent<br/>
--Common layouts and views<br/>
+-Intent-Filter</br>
+-Common Layouts and Views<br/>
 -List View and Adapter<br/>
--Http Connection and AsyncTask<br/>
+-Network<br/>
+-AsyncTask<br/>
 
 
 For more,
