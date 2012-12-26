@@ -1,9 +1,9 @@
 RottenAndroid
 =============
 
-Simple android tutorial app that covers Android fundamentals by leveraging Rotten Tomatoes API
+Sabanci University Android Workshop
 
-Topics of this tutorial:
+Topics Covered:
 
 -Basic Android Project Structure<br/>
 -Activity<br/>
@@ -11,6 +11,7 @@ Topics of this tutorial:
 -Intent-Filter<br/>
 -Common Layouts and Views<br/>
 -List View and Adapter<br/>
+-Fragments<br/>
 -Network<br/>
 -AsyncTask<br/>
 
