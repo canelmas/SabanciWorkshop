@@ -1,7 +1,5 @@
-RottenAndroid
-=============
-
 Sabanci University Android Workshop
+=============
 
 Topics Covered:
 
