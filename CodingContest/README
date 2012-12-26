@@ -19,6 +19,8 @@
 #	Basically,
 
  	We're expecting from you to complete the RottenAndroid application that we've started writing, a sample android application that will read some data from a remote endpoint over the internet and display it in the app within your own layouts. 
+
+	To start coding just download the project archive RottenAndroid.zip and open with IDEA or your favorite IDE.
 		
 #	Remote Endpoint
 
@@ -65,6 +67,8 @@
 	Check the application mockup mockup.jpg, we're expecting your app to look better than that
 	
 	Before starting to code, run the project first on your virtual or physical device and be sure that your environment is set.
+	
+	Don't forget to use LogCat in order to debug and see problems with your code. With IDEA you can click the 'Android' tab button at the left bottom of the screen and enable LogCat.
 
 
 #   Points
