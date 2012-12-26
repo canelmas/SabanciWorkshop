@@ -21,6 +21,8 @@
  	We're expecting from you to complete the RottenAndroid application that we've started writing, a sample android application that will read some data from a remote endpoint over the internet and display it in the app within your own layouts. 
 
 	To start coding just download the project archive RottenAndroid.zip and open with IDEA or your favorite IDE.
+	
+	Observe structure of the app and the existing code.
 		
 #	Remote Endpoint
 
