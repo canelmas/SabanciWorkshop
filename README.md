@@ -16,5 +16,4 @@ Topics Covered:
 
 For more,
 
-http://developer.rottentomatoes.com/docs<br/>
 http://developer.android.com/
