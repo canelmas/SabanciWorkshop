@@ -1,0 +1,85 @@
+#   RottenAndroid - Simple Android App
+
+#	Technical Requierements 
+	
+	1.	Your favourite IDE; ours is Intellij IDEA 12 Community Edition
+		
+		http://www.jetbrains.com/idea/
+		
+	2.	Java Development Kit 
+	 	
+		http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html
+		
+		6u24 is fine
+		
+	3. Android SDK
+	
+		http://developer.android.com/sdk/index.html
+
+#	Basically,
+
+ 	We're expecting from you to complete the RottenAndroid application that we've started writing, a sample android application that will read some data from a remote endpoint over the internet and display it in the app within your own layouts. 
+		
+#	Remote Endpoint
+
+	http://www.rottentomatoes.com is a website where you can find lots of movie related stuff : title, year, ratings, critics, synopsis, images, cast information etc. 
+	
+	They are providing the data over a public API. Check it out http://developer.rottentomatoes.com/docs
+	
+	So we're going to use Rotten Tomatoes Public API for the remote endpoint and the data set.
+	
+#	Rotten Tomatoes Public API Key 	
+	
+	We already have a API key that you can use : pmdqn6x39spbuxht7h5x2aye
+	
+	If you encounter any problem with this API key and decide to get a new one, don't forget to update BaseAsyncTask class in your project where you set the API key :
+	
+	private static final String API_KEY = "pmdqn6x39spbuxht7h5x2aye";	// this is where you'll set the API key
+	
+#	Rotten Tomatoes API Test Requests
+	
+	Check out on your browser the following requests and get familiar with parameters, the result returned and the API :
+	
+	In theaters Movies
+	http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?apikey=pmdqn6x39spbuxht7h5x2aye
+	
+	Search Results for 'batman'
+	http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=pmdqn6x39spbuxht7h5x2aye&q=batman
+	
+	You can use http://jsbeautifier.org/ to beautify the JSON returned from the API.
+	
+#	More specifically,
+
+	1.	You should provide layouts for both Fragments : FragInTheaterMovies and FragSearch
+	2.	You should write GetInTheaterMovies request class, extending from BaseAsyncTask, which will read in theaters movies from the API
+	3.	You should write your Movie model class in the following package : com.cnlms.rottenandroid.model
+	4.	What your Movie class will contain is up to you, read and display as much data as you can. Movie title, synopsis, rating and IMDB id are expected though.
+	3.	You should populate your FragInTheaterMovies user interface with the received data
+	4.	Repeat step 3 and 4 for FragSearch fragment where you will receive an input from the user and start a search request, SearhMovieRequest which will make the necessary call over the API and receive a movie list in return.
+	5. 	Provide layouts for your List View items.
+	6.	When a movie is clicked on the list, you should start a new activity, called MovieDetailsActivity where you will provide more information about the selected movie e.g if you're displaying the movie title in the list view, show movie synopsis and cast information in the new activity, it's up to you
+	7. MovieDetailsActivity should contain a button at the bottom of the screen, that will open a browser when clicked. The browser should navigate user tho the url : 
+	
+		http://www.imdb.com/title/tt/<movie_imdb_id> 
+				
+	Check the application mockup mockup.jpg, we're expecting your app to look better than that
+	
+	Before starting to code, run the project first on your virtual or physical device and be sure that your environment is set.
+
+
+#   Points
+-Working Project 40
+ Fragments Layouts, adapters, model classes, network requests..
+
+
+#   Bonus Points
+-Fetch movies' thumbnail images 5
+-ListView Performance Optimization 10
+-ImageLoader Cache 10
+-Give a predefined theme to your app 5
+-Give a custom theme to your app  5
+-Use color selectors for 'Go To IMDB' or 'Search' buttons 5
+-Style your Views (text colors, text sizes, text styles, background colors etc.) 5
+-Use one gradient background 5
+-Use custom attributes for text views 5
+-Provide alternative landscape Layout for FragInTheatersMovies fragment 20
